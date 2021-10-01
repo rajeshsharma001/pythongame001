@@ -23,6 +23,7 @@ green = (0, 255, 0)
 # changing the blue colors....
 blue = (0, 0, 255)
 
+# create print function in the game that prints HELLO WORLD
 def printfun():
     print("HELLO WORLD")
 #-------------------------------------------------------------------------------------
