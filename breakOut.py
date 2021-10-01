@@ -12,11 +12,21 @@ screen_height = 600
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("BreakOut")
 
-# brick colors 
-bg = (80, 80, 80)
-red = (242, 70, 75)
-green = (86, 194, 87)
-blue = (69, 177, 232)
+#----------------------------------- EDITED CODE -------------------------------------
+#-------------------------------------------------------------------------------------
+# changing the brick colors
+bg = (100, 100, 100)
+# changing the red colors....
+red = (242, 0, 0)
+# changing the green colors....
+green = (0, 255, 0)
+# changing the blue colors....
+blue = (0, 0, 255)
+
+def printfun():
+    print("HELLO WORLD")
+#-------------------------------------------------------------------------------------
+
 yellow = (255,188,19)
 
 #paddle colors
@@ -318,6 +328,7 @@ ball = game_ball(player_paddle.x + (player_paddle.width//2), player_paddle.y - p
 run = True 
 
 while run:
+    printfun()
     clock.tick(fps)
     screen.fill(bg)
 
